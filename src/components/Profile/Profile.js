@@ -12,7 +12,7 @@ export const Profile = ({username,tag,location,avatar,stats}) =>{
   />
   <p className={style.descItem}>{username}</p>
   <p className={style.descItem}>@{tag}</p>
-  <p className={descItem}>{location}</p>
+  <p className={style.descItem}>{location}</p>
 </div>
 
 <ul className={style.stats}>
