@@ -6,7 +6,7 @@ export const Statistics=({title,stats})=>{
    <section className={style.statistics}>
     <h2 className={style.title}>{title}</h2>
   
-    <ul className={style.stat-list}>
+    <ul className={style.statList}>
       {stats.map(({id, label, percentage})=>{
 return (
   <li key={id}>

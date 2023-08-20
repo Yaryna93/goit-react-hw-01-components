@@ -8,7 +8,7 @@
   text-align: center;
   font-weight: 300;
 }
-.stat-list{
+.statList{
   display: flex;
   justify-content: center;
   margin-top: 20px;
